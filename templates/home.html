@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+
+<div class="container mt-4">
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="/static/images/h3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Healthy</h5>
+          <p class="card-text">Healthy food keeps your body strong and full of energy.</p>
+          <a href="/foodinfo" class="btn btn-primary">More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="/static/images/f1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fitness</h5>
+          <p class="card-text">Protein-rich food helps build muscles and strength.</p>
+          <a href="/foodinfo1" class="btn btn-primary">More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="/static/images/j2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fast Food</h5>
+          <p class="card-text">Fast food is tasty but unhealthy if eaten too much.</p>
+          <a href="/foodinfo2" class="btn btn-primary">More</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}
